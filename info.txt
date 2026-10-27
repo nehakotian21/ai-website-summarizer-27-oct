@@ -1,0 +1,39 @@
+
+
+
+HTTP - Hyper Text Transfer Protocol
+HTTPs - Hyper Text Transfer Protocol Secure
+
+
+> Enter the URL
+> Frontend / client side sends a request to the backend
+> backend process the information and sends a response
+
+> Response - status code
+
+
+> API - Application programming interface
+> JSON - Javascript Object Notation
+
+> Python using FastAPI
+
+> HTTP methods - CRUD Operation
+ Product
+> Create - POST - /products
+> Read - GET - /products
+        GET - /products/{id}
+> Update - PUT / PATCH - /products/{id}
+> Delete - DELETE - /products/{id}
+
+
+> pip install fastapi uvicorn
+
+To Run a FastAPI Server use the following command
+> uvicorn main:app --reload
+
+
+> http://127.0.0.1:8000 
+> http://127.0.0.1:8000/docs - Swagger UI 
+
+
+
